@@ -6,9 +6,9 @@ for example:
 a matrix of 3x2 dimensions would be [[1,0],[0,1],[1,0]]
 and a matrix of 2x3 would be [[1,1,1],[0,0,0]]
 */
+import type { Dimensions } from "./Dimensions";
 
 export interface Matrix{
-    rows: number;
-    columns: number;
+    dimensions: Dimensions;
     data: number[][];
 }

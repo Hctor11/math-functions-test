@@ -4,7 +4,6 @@ const InputCard = () => {
   return (
     <div>
         <Dimensions />
-        
     </div>
   )
 }

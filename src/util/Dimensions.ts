@@ -15,5 +15,10 @@ export const DIMENSIONS:Dimensions[] = [
     rows: 2,
     columns: 2,
     text: "2x2"
+  },
+  {
+    rows: 2,
+    columns: 2,
+    text: "2x3"
   }
 ]

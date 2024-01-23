@@ -1,7 +1,9 @@
+import type { Matrix } from "@/util/Matrix";
 
 interface InputSetProps {
     rows: number;
     cols: number;
+    value?: Matrix;
 }
 
 const InputSet = ({ rows, cols }: InputSetProps) => {

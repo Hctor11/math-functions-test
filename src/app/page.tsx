@@ -1,4 +1,4 @@
-import MatrixSum from "@/Components/MatrixSum";
+import MatrixOperation from "@/Components/MatrixOperation";
 
 export default function Home() {
   return (
@@ -6,7 +6,7 @@ export default function Home() {
       <h1 className="text-2xl font-bold">
         voila
       </h1>
-      <MatrixSum />
+      <MatrixOperation />
     </main>
   );
 }

@@ -2,7 +2,9 @@ import React from 'react'
 
 const MatrixResult = () => {
   return (
-    <div>MatrixResult</div>
+    <div>
+      
+    </div>
   )
 }
 

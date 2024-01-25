@@ -1,12 +1,14 @@
+
 import type { Matrix } from "@/util/Matrix";
 
 interface InputSetProps {
     rows: number;
     cols: number;
     value?: Matrix;
+    onChange?: (matrix: Matrix) => void;
 }
 
-const InputSet = ({ rows, cols }: InputSetProps) => {
+const InputSet = ({ rows, cols, onChange }: InputSetProps) => {
     return (
       <div className="input-set">
         {Array.from({ length: rows }, (_, i) => (
@@ -19,6 +21,7 @@ const InputSet = ({ rows, cols }: InputSetProps) => {
       </div>
     );
   };
-  
 
-export default InputSet
+
+export default InputSet;
+

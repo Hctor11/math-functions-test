@@ -5,6 +5,7 @@ const MatrixOperation = () => {
     <div>
       <MatrixInput side="A" title="Matrix A" />
       <MatrixInput side="B" title="Matrix B" />
+      
     </div>
   )
 }
